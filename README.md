@@ -1,6 +1,5 @@
 # JsonKnownTypes.Swashbuckle
 
-# JsonKnownTypes .Net Standard
 [![nuget](https://img.shields.io/nuget/v/JsonKnownTypes.Swashbuckle?style=flat-square)](https://www.nuget.org/packages/JsonKnownTypes.Swashbuckle)
 [![downloads](https://img.shields.io/nuget/dt/JsonKnownTypes.Swashbuckle?style=flat-square)](https://www.nuget.org/packages/JsonKnownTypes.Swashbuckle)
 [![lisence](https://img.shields.io/badge/lisence-MIT-green?style=flat-square)](https://github.com/dmitry-bym/JsonKnownTypes.Swashbuckle/blob/main/LICENSE)
