@@ -1,5 +1,12 @@
 # JsonKnownTypes.Swashbuckle
 
+# JsonKnownTypes .Net Standard
+[![nuget](https://img.shields.io/nuget/v/JsonKnownTypes.Swashbuckle?style=flat-square)](https://www.nuget.org/packages/JsonKnownTypes.Swashbuckle)
+[![downloads](https://img.shields.io/nuget/dt/JsonKnownTypes.Swashbuckle?style=flat-square)](https://www.nuget.org/packages/JsonKnownTypes.Swashbuckle)
+[![lisence](https://img.shields.io/badge/lisence-MIT-green?style=flat-square)](https://github.com/dmitry-bym/JsonKnownTypes.Swashbuckle/blob/main/LICENSE)
+
+<a href="https://www.buymeacoffee.com/dmitry.bym" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
+
 Add swashbuckle support to the project.
 
 - [Documentation](#Documentation)
