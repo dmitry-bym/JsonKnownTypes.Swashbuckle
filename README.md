@@ -11,6 +11,11 @@ Add swashbuckle support to the project with JsonKnownTypes
 - [Documentation](#Documentation)
 - [License](#License)
 
+## Requirements
+- NET Standard 2.0 compatible project
+- [Swashbuckle.AspNetCore.Newtonsoft](https://github.com/domaindrivendev/Swashbuckle.AspNetCore)
+- [JsonKnownTypes](https://github.com/dmitry-bym/JsonKnownTypes) version >= 0.5.4
+
 
 
 ## Documentation
