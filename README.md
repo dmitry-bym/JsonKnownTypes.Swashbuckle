@@ -8,11 +8,11 @@ Add swashbuckle support to the project.
 
 
 ## Documentation
-
+To add JsonKnowTypes support in swashbuckle use it
 ```c#        
-    services.AddSwaggerGen()
-        .AddSwaggerGenNewtonsoftSupport()
-        .AddSwaggerGenJsonKnownTypesSupport();
+services.AddSwaggerGen()
+    .AddSwaggerGenNewtonsoftSupport()
+    .AddSwaggerGenJsonKnownTypesSupport();
 ```
 
 ## License
