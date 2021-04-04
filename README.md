@@ -18,11 +18,18 @@ Add swashbuckle support to the project with JsonKnownTypes
 
 
 ## Documentation
-To add JsonKnowTypes support in swashbuckle use it
-```c#        
-services.AddSwaggerGen()
-    .AddSwaggerGenNewtonsoftSupport()
-    .AddSwaggerGenJsonKnownTypesSupport();
+To add JsonKnowTypes support in swashbuckle use `AddSwaggerGenJsonKnownTypesSupport` extension method
+```c#
+public void ConfigureServices(IServiceCollection services)
+{
+    services
+        .AddMvc()
+        .AddNewtonsoftJson();
+    
+    services.AddSwaggerGen()
+        .AddSwaggerGenNewtonsoftSupport()
+        .AddSwaggerGenJsonKnownTypesSupport();
+}
 ```
 
 It will add discriminator field and will use base class
