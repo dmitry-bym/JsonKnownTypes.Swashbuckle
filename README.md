@@ -26,7 +26,8 @@ public void ConfigureServices(IServiceCollection services)
         .AddMvc()
         .AddNewtonsoftJson();
     
-    services.AddSwaggerGen()
+    services
+        .AddSwaggerGen()
         .AddSwaggerGenNewtonsoftSupport()
         .AddSwaggerGenJsonKnownTypesSupport();
 }
