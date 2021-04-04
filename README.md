@@ -25,6 +25,27 @@ services.AddSwaggerGen()
     .AddSwaggerGenJsonKnownTypesSupport();
 ```
 
+It will add discriminator field and will use base class, i'm going to add polymorphic support for open api soon
+```c#
+[JsonConverter(typeof(JsonKnownTypesConverter<Animal>))]
+public record Animal(int Age);
+```
+Example Value | Schema in SwaggerUI:
+```json
+{ "$type": "string", "age": 0 }
+```
+
+Also you can use it with custom discriminator
+```c#
+[JsonConverter(typeof(JsonKnownTypesConverter<Animal>))]
+[JsonDiscriminator(Name = "kind")]
+public record Animal(int Age);
+```
+Example Value | Schema in SwaggerUI:
+```json
+{ "kind": "string", "age": 0 }
+```
+
 ## License
 
 Authored by: Dmitry Kaznacheev (dmitry-bym)
