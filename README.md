@@ -25,7 +25,7 @@ services.AddSwaggerGen()
     .AddSwaggerGenJsonKnownTypesSupport();
 ```
 
-It will add discriminator field and will use base class, i'm going to add polymorphic support for open api soon
+It will add discriminator field and will use base class
 ```c#
 [JsonConverter(typeof(JsonKnownTypesConverter<Animal>))]
 public record Animal(int Age);
